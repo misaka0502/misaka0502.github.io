@@ -112,14 +112,14 @@ secret: 123456
 4. 访问yacd dashboard：
    1. 浏览器访问 `http://yacd.haishan.me/`
    2. 按照如下方式填写：
-      ![yacd](images\yacd.png)
+      ![yacd](images/yacd.png)
    3. 点击add后即可进入面板：
-      ![dashboard](images\dashboard.png)
+      ![dashboard](images/dashboard.png)
       即可像使用cfw或者clash-verge等客户端一样监控和管理代理了
 
 记录可能遇到的问题：
 
 - 如果chrome无法登录yacd dashboard，可以尝试将网站设置的 `不安全内容`设为 `允许`
-  ![网站设置](images\setting1.png)
+  ![网站设置](images/setting1.png)
 
 同时还可以使用守护进程Clash自启动以及后台运行，不过我没用到所以暂时不记录了
