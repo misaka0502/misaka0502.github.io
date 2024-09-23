@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -68,7 +68,7 @@ navbar:
   blog_title: YuMio的小窝
 
 index: 
-  banner_img: /img/feixiao2.jpg
+  banner_img: /images/feixiao2.jpg
   slogan: 
     enable: true
     text: Ciallo ～(∠・ω&lt; )⌒★!
