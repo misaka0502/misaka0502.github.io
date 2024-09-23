@@ -68,7 +68,7 @@ navbar:
   blog_title: YuMio的小窝
 
 index: 
-  banner_img: /img/bg/topic.jpg
+  banner_img: /img/feixiao2.jpg
   slogan: 
     enable: true
     text: Ciallo ～(∠・ω&lt; )⌒★!
@@ -111,3 +111,11 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+post:
+  comments:
+    enable: true
+    type: disqus
+
+disqus:
+  shortname: fluid
