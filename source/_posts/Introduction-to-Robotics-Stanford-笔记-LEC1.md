@@ -4,6 +4,10 @@ date: 2024-11-07 20:28:02
 tags: 机器人学
 banner_img: /images/kisaki3.jpg
 ---
+<!-- <script src="https://fastly.jsdelivr.net/gh/misaka0502/live2d-widget@latest/autoload.js"></script> -->
+<script src="/live2d-widget/autoload.js"></script>
+
+
 最近开始学习机器人学，目前跟着斯坦福大学的机器人学导论公开课学，记录一下第一课的笔记，都是些简单介绍的概念。
 斯坦福大学机器人学导论公开课地址： [Lecture 1 | Introduction to Robotics](https://www.youtube.com/watch?v=0yD3uBshJB0&list=PL64324A3B147B5578)
 
@@ -27,7 +31,7 @@ banner_img: /images/kisaki3.jpg
 - Jacobian: relations
   - joint velocities and end-effector velocities 关节速度和末端执行器速度之间的关系
   - joint torques and end-effector forces 关节力矩和末端执行器力之间的关系
-    ![Jacobian](images/jacobian.png)
+    ![Jacobian](/images/jacobian.png)
 
 ## Inverse Kinematics 逆运动学
 Finding joint positions given end-effector positions and orientations 给定末端执行器的位置和方向，求关节位置
