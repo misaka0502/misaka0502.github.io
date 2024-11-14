@@ -5,8 +5,8 @@ tags: 机器人学
 banner_img: ../images/kisaki4.jpg
 mathjax: true
 ---
-<!-- <script src="https://fastly.jsdelivr.net/gh/misaka0502/live2d-widget@latest/autoload.js"></script> -->
-<script src="/live2d-widget/autoload.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/misaka0502/live2d-widget@V0.2/autoload.js"></script>
+<!-- <script src="/live2d-widget/autoload.js"></script> -->
 
 这自动识别的字幕和机翻看得是真的费劲啊。。。
 

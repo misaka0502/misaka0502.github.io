@@ -5,7 +5,8 @@ tags: 机器人学
 banner_img: /images/kisaki3.jpg
 ---
 <!-- <script src="https://fastly.jsdelivr.net/gh/misaka0502/live2d-widget@latest/autoload.js"></script> -->
-<script src="/live2d-widget/autoload.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/misaka0502/live2d-widget@V0.2/autoload.js"></script>
+<!-- <script src="/live2d-widget/autoload.js"></script> -->
 
 
 最近开始学习机器人学，目前跟着斯坦福大学的机器人学导论公开课学，记录一下第一课的笔记，都是些简单介绍的概念。

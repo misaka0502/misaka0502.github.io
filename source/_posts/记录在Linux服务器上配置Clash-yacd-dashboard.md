@@ -6,8 +6,8 @@ index_img: /images/hina2.jpg
 banner_img: /images/ako1.png
 banner_img_height: 100
 ---
-<!-- <script src="https://fastly.jsdelivr.net/gh/misaka0502/live2d-widget@latest/autoload.js"></script> -->
-<script src="/live2d-widget/autoload.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/misaka0502/live2d-widget@V0.2/autoload.js"></script>
+<!-- <script src="/live2d-widget/autoload.js"></script> -->
 
 日志参考: [Linux 服务器安装 Clash代理](https://blog.myxuechao.com/post/36)，感谢作者。
 
