@@ -22,7 +22,7 @@ banner_img: /images/kisaki3.jpg
   - 例如D-H参数法
 
 ## Manipulator Kinematics 机械臂运动学
-- Link Description 链描述
+- Link Description 连杆描述
 - Denavit-Hartenberg Notion D-H参数法
 - Forward Kinematics 正向运动学
 
