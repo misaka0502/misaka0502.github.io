@@ -94,7 +94,7 @@ class env(gym.Env):
 		# 创建环境
 		self.isaac_gym = gymapi.acquire_gym()
 		sim = self.isaac_gym.create_sim(
-				compute_device_id,
+			compute_device_id,
 		    graphics_device_id,
 		    gymapi.SimType.SIM_PHYSX,
 		    sim_config["sim_params"],
@@ -107,19 +107,19 @@ class env(gym.Env):
 		... # 其他设置
 
 		def step(self, action):
-			  ...
-			  obs = get_observation()
+			...
+			obs = get_observation()
 
 		def get_observation(self):
-				self.isaac_gym.fetch_results(self.sim, True)
+			self.isaac_gym.fetch_results(self.sim, True)
 		    self.isaac_gym.step_graphics(self.sim)
 		    self.isaac_gym.render_all_camera_sensors(self.sim)
-				# 获取color image
-				image = isaac_gym.get_camera_image(self.sim, self.env, self.camera, gymapi.IMAGE_COLOR)
-			  image = np.reshape(image, (self.img_size[1], self.img_size[0], -1))[..., :-1] # RGBA -> RGB
-			  image = torch.from_numpy(image).to(self.device)
-			  # 获取其他观测
-			  ...
+			# 获取color image
+			image = isaac_gym.get_camera_image(self.sim, self.env, self.camera, gymapi.IMAGE_COLOR)
+			image = np.reshape(image, (self.img_size[1], self.img_size[0], -1))[..., :-1] # RGBA -> RGB
+			image = torch.from_numpy(image).to(self.device)
+			# 获取其他观测
+			...
 ```
 
 这样处理之后暂时就没什么问题了，代码也终于能跑起来了。🤧
