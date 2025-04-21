@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: YuMioの世界へ
 subtitle: ''
 description: ''
 keywords:
@@ -68,7 +68,7 @@ index_generator:
   order_by: -date
 
 navbar: 
-  blog_title: YuMio的小窝
+  blog_title: YuMioの世界へ
 
 index: 
   banner_img: /images/feixiao2.jpg
