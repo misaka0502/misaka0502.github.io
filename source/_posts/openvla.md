@@ -11,7 +11,7 @@ banner_img: /images/bg/takina.jpg
 <!-- <script src="/live2d-widget/autoload.js"></script> -->
 
 
-论文地址：[OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246)
+> 论文地址：[OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246)
 
 # 一、背景
 
